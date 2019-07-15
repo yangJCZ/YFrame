@@ -1,0 +1,26 @@
+
+// navbar
+$navWidth: 210px;
+$navWidthHide: 64px;
+
+$navBg:#304156;
+$navText:#bfcbd9;
+$navTextActive:#409EFF;
+$navHover:#263445;
+
+$subNavBg: #1f2d3d;
+$subNavHover:#001528;
+
+// header
+$headerHeight: 50px;
+
+:export {
+    navWidth: $navWidth;
+    navBg: $navBg;
+    navText: $navText;
+    navTextActive: $navTextActive;
+    navHover: $navHover;
+    headerHeight: $headerHeight;
+    subNavBg: $subNavBg;
+    navWidthHide:$navWidthHide
+}
